@@ -1,0 +1,147 @@
+.modal {
+    display: none;
+}
+
+form {
+    border: 5px solid #c9b125;
+    border-radius: 15px;
+    padding: 14px;
+    width: 40%;
+    margin: auto;
+    animation: animatezoom 0.9s;
+}
+
+@keyframes animatezoom {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+input {
+    width: 80%;
+    border-radius: 15px;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    margin: auto;
+
+}
+
+
+button[type=submit] {
+    width: 30%;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+label {
+   font-family: Helvetica, sans-serif;  
+   font-style: italic;
+   color: #444444;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Cambria;
+    color: #a57815;
+}
+
+header {
+   margin: 15px;
+}
+button {
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #ebc03e;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #dc9914;
+}
+
+.container {
+    margin: 21px 0 12px 0;
+
+}
+
+
+.container img {
+    max-width: 45%;
+    cursor: pointer;
+    float: inline-end;
+}
+
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 155px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover {
+    background: red;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+#remember {
+    display: inline-block;
+    margin: 0;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.container-cancel {
+    display: inline-block;
+    font-family: Verdana;
+    padding: 10px;
+}
+
+.btnCancel {
+    background-color: red;
+}
+
+a {
+    color: #dc9914;
+    font-style: italic;
+}
+
+a:hover {
+    color: #7e5a11;
+}
+
+.forgot {
+  
+}
